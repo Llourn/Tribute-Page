@@ -1,0 +1,52 @@
+/*
+- Put the entire site in a block with roudned corners. 
+- update fonts and image sizes on page resize. 
+- update the site fonts to something else.
+*/
+
+body {
+    margin: auto;
+    
+    max-width: 960px;
+    min-width: 350px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#main {
+    background-color: rgb(200, 200, 200);
+    border-radius: 1em;
+    padding-bottom: 20px;
+}
+
+#image {
+    width: 80%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#image-div {
+    margin: auto;
+    width: 90%;
+}
+
+#image {
+    width: 95%;
+}
+
+#image-caption {
+    text-align: center;
+}
+
+#tribute-link {
+    text-align: center;
+}
